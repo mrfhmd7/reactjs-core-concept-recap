@@ -34,9 +34,9 @@ function LoadPosts() {
 
 function Post(props) {
   return (
-    <div style={{backgroundColor:'tomato', margin:'10px', padding:'10px', borderRadius:'8px', border:'3px solid red' }}>
-      <h3>Title: {props.title}</h3>
-      <p style={{color:'white'}}>Body: {props.body}</p>
+    <div style={{backgroundColor:'#8c8c8c', margin:'10px', padding:'10px', borderRadius:'8px', border:'3px solid darkblue' }}>
+      <h2>Title: {props.title}</h2>
+      <p style={{color:'#faf2f2'}}>Body: {props.body}</p>
     </div>
   );
 };
